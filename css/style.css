@@ -1,0 +1,56 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: 'roboto', sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+.wrapper{
+    width: 80%;
+}
+
+/* banner */
+#banner{
+    height: 100vh;
+    background-image: url('../img/dana-devolk-696178-unsplash.jpg');
+    background-size: cover;
+}
+.nav .nav-item{
+    margin: 0 20px;
+}
+.nav .nav-link{
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+.nav .nav-link:hover{
+    box-shadow: 0 0 0 2px #fff;
+}
+.alert{
+    letter-spacing: 2px;
+    border-radius: 0;
+    border: 2px solid #fff;
+}
+
+/* blog */
+#blog{
+    height: 60vh;
+    background-image: url('../img/lukasz-szmigiel-11636-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* contact */
+form .form-control{
+    border: 2px solid #000;
+}
+
+/* poortofolio */
+figure{
+    height: 150px;
+    overflow: hidden;
+}
